@@ -8,15 +8,15 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ganglians"]
   spec.email         = ["jchav027@ucr.edu"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Palindrome detector}
+  spec.description   = %q{Learn Enough Ruby palindrome detector}
+  spec.homepage      = "https://github.com/Ganglians/ruby_tutorial_palindrome"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org/"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  # spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
+  # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
