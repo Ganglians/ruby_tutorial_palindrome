@@ -4,35 +4,31 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 # Palindrome detector
 
-`mhartl_palindrome` is a sample Ruby gem created in [*Learn Enough Ruby to Be Dangerous*](https://www.learnenough.com/ruby-tutorial) by Michael Hartl.
+`ganglians_palindrome` is a sample Ruby gem created in [*Learn Enough Ruby to Be Dangerous*](https://www.learnenough.com/ruby-tutorial) by Michael Hartl.
 
 ## Installation
 
-To install `mhartl_palindrome`, add this line to your application's `Gemfile`:
+Add this line to your application's Gemfile:
 
-```
-gem 'mhartl_palindrome'
-```
-
-Then install as follows:
-
-```
-$ bundle install
+```ruby
+gem 'ganglians_palindrome'
 ```
 
-Or install it directly using `gem`:
+And then execute:
 
-```
-$ gem install mhartl_palindrome
-```
+    $ bundle install
+
+Or (using gem directly) install it yourself as:
+
+    $ gem install ganglians_palindrome
 
 ## Usage
 
-`mhartl_palindrome` adds a `palindrome?` method to the `String` class, and can be used as follows:
+`ganglians_palindrome` adds a `palindrome?` method to the `String` class, and can be used as follows:
 
 ```
 $ irb
->> require 'mhartl_palindrome'
+>> require 'ganglians_palindrome'
 >> "honey badger".palindrome?
 => false
 >> "deified".palindrome?
@@ -48,26 +44,6 @@ $ irb
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'ganglians_palindrome'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install ganglians_palindrome
-
-## Usage
-
-TODO: Write usage instructions here
-
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
@@ -76,4 +52,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ganglians_palindrome.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ganglians/ganglians_palindrome.
